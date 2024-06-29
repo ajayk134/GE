@@ -1,0 +1,107 @@
+.footer11-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.footer11-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  height: 177px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer11-content {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer11-image1 {
+  height: 4rem;
+  align-self: center;
+}
+.footer11-social-links {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.footer11-credits {
+  width: auto;
+  display: flex;
+  align-self: stretch;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer11-row {
+  flex: 1;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.footer11-credits1 {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+@media(max-width: 991px) {
+  .footer11-social-links {
+    align-self: center;
+  }
+}
+@media(max-width: 767px) {
+  .footer11-content {
+    flex-direction: column;
+  }
+  .footer11-social-links {
+    align-self: center;
+  }
+  .footer11-row {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer11-credits1 {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .footer11-content {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .footer11-image1 {
+    height: 3rem;
+  }
+  .footer11-social-links {
+    align-items: center;
+    justify-content: center;
+  }
+  .footer11-credits {
+    gap: 0;
+  }
+  .footer11-row {
+    align-items: center;
+    justify-content: center;
+  }
+}

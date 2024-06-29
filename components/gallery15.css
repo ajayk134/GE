@@ -1,0 +1,40 @@
+.gallery15-gallery3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: #ffffff;
+}
+.gallery15-max-width {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gallery15-section-title {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.gallery15-text {
+  color: #ff0000;
+  font-size: 42px;
+  text-align: center;
+  font-family: "Cinzel-Bold";
+}
+.gallery15-text1 {
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+}
